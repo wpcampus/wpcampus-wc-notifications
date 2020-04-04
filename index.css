@@ -1,0 +1,43 @@
+/* stylelint-disable selector-type-no-unknown */
+wpcampus-notifications {
+	display: block;
+	color: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	text-align: inherit;
+}
+
+wpcampus-notifications .wpc-notification__icon {
+	padding: 0 0.8rem 0 0;
+}
+
+wpcampus-notifications .wpc-notification__icon .wpc-notification__icon__graphic {
+	display: block;
+	max-width: none;
+	width: 28px;
+	height: auto;
+	margin: 0;
+	opacity: 0.7;
+	fill: #000;
+}
+
+wpcampus-notifications .wpc-notification__message {
+	flex-grow: 1;
+}
+
+wpcampus-notifications .wpc-notification--icon {
+	display: flex;
+	align-items: center;
+}
+
+wpcampus-notifications .wpc-notifications {
+	height: auto;
+	opacity: 1;
+	transition: all 1s;
+}
+
+wpcampus-notifications .wpc-notifications--loading {
+	height: 0;
+	opacity: 0;
+}
+/* stylelint-disable */

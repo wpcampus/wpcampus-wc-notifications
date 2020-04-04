@@ -1,0 +1,36 @@
+{
+	"name": "@wpcampus/wpcampus-wc-notifications",
+	"version": "0.0.0",
+	"description": "The Notifications web component used by the WPCampus organization.",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/wpcampus/wpcampus-wc-notifications.git"
+	},
+	"keywords": [
+		"wpcampus",
+		"web components"
+	],
+	"author": "WPCampus",
+	"contributors": [
+		"Rachel Cherry"
+	],
+	"license": "GPL-3.0",
+	"bugs": {
+		"url": "https://github.com/wpcampus/wpcampus-wc-notifications/issues"
+	},
+	"homepage": "https://github.com/wpcampus/wpcampus-wc-notifications#readme",
+	"scripts": {
+		"css": "stylelint *.css --fix",
+		"lint": "eslint *.js *.json --fix"
+	},
+	"devDependencies": {
+		"eslint": "^6.8.0",
+		"eslint-plugin-json": "^2.1.1",
+		"stylelint": "^13.3.0",
+		"stylelint-config-standard": "^20.0.0"
+	},
+	"dependencies": {
+		"@wpcampus/wpcampus-wc-default": "^0.0.1"
+	}
+}
