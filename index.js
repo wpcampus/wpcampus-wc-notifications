@@ -80,6 +80,17 @@ class WPCampusNotifications extends WPCampusRequestElement {
 
 		return templateDiv.innerHTML;
 	}
+	async loadContentError() {
+
+		const content = "<p class=\"wpc-component__error-message\">There was a problem loading the notification.";
+
+		const cssPrefix = this.getComponentCSSPrefix();
+		this.classList.add(`${cssPrefix}--error`);
+
+		this.innerHTML = this.getHTMLMarkup(content);
+
+		return true;
+	}
 	loadContentHTML(content, loading) {
 		const that = this;
 		return new Promise((resolve, reject) => {
@@ -201,7 +212,9 @@ class WPCampusNotifications extends WPCampusRequestElement {
 				}
 			})
 			.catch(() => {
-				// @TODO what to do when the request doesn't work?
+
+				// If request didnt work, force load local content.
+				that.loadContentFromLocal(true);
 			})
 			.finally(() => {
 				that.setUpdateTimer();
