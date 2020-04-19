@@ -29,15 +29,4 @@ wpcampus-notifications .wpc-notification--icon {
 	display: flex;
 	align-items: center;
 }
-
-wpcampus-notifications .wpc-notifications {
-	height: auto;
-	opacity: 1;
-	transition: all 1s;
-}
-
-wpcampus-notifications .wpc-notifications--loading {
-	height: 0;
-	opacity: 0;
-}
 /* stylelint-disable */
