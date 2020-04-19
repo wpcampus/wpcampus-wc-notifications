@@ -1,6 +1,6 @@
 {
 	"name": "@wpcampus/wpcampus-wc-notifications",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "The Notifications web component used by the WPCampus organization.",
 	"main": "index.js",
 	"repository": {
