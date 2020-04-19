@@ -1,5 +1,6 @@
 .githooks
+.editorconfig
 .eslintrc.json
 .gitignore
 .nvmrc
-yarn.lock
+.stylelintrc.json
