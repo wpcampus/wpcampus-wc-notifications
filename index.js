@@ -227,7 +227,7 @@ class WPCampusNotifications extends WPCampusRequestElement {
 			that.isRendering(true);
 
 			that.setAttribute("aria-live", "polite");
-			that.setAttribute("aria-label", "Notifications");
+			that.setAttribute("aria-label", "Most recent WPCampus announcement");
 
 			that.loadContent().then(() => {
 				that.isRendering(false);
