@@ -1,5 +1,5 @@
 const { WPCampusRequestElement } = require("@wpcampus/wpcampus-wc-default");
-const stylesheet = require("./index.css");
+require("./index.css");
 
 // Format options for displaying notifications.
 const formatOptions = ["list", "listIcon"];
@@ -17,8 +17,6 @@ class WPCampusNotifications extends WPCampusRequestElement {
 			requestURL: "https://wpcampus.org/wp-json/wpcampus/data/notifications"
 		};
 		super(config);
-
-		this.addStyles(stylesheet);
 
 		if (this.dataset.format !== undefined) {
 			this.format = this.dataset.format;
