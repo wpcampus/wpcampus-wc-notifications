@@ -31,6 +31,6 @@
 		"stylelint-config-standard": "^20.0.0"
 	},
 	"dependencies": {
-		"@wpcampus/wpcampus-wc-default": "^0.0.4"
+		"@wpcampus/wpcampus-wc-default": "^0.0.5"
 	}
 }
