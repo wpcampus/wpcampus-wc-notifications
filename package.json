@@ -25,8 +25,8 @@
 		"lint": "eslint *.js *.json --fix"
 	},
 	"devDependencies": {
-		"eslint": "^6.8.0",
-		"eslint-plugin-json": "^2.1.1",
+		"eslint": "^7.18.0",
+		"eslint-plugin-json": "^2.1.2",
 		"stylelint": "^13.3.0",
 		"stylelint-config-standard": "^20.0.0"
 	},
